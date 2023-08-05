@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <title>Seller Admin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="my-form"">
+        <label for="selling">Selling Price</label> <br>
+        <input type="number" id="selling"> <br>
+        <label for="product">Product Name</label> <br>
+        <input type="text" id="product"> <br> <br>
+        <input type="submit" value="Add Product">
+    
+    </form>
+    </div> <h1>Products</h1>
+    <div><ul id="items"  class="list-group"></ul></div>
+    <h4 id="total-value">Total Value Worth of Products: Rs 0 </h4>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
